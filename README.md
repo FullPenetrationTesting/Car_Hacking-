@@ -1,8 +1,6 @@
 Instrument Cluster Simulator for SocketCAN
 ------------------------------------------
 
-By: OpenGarages <agent.craig@gmail.com>
-
 Compiling
 ---------
 You will need:
@@ -15,7 +13,24 @@ You can get can-utils from github or on Ubuntu you may run the follwoing
 ```
   sudo apt-get install libsdl2-dev libsdl2-image-dev can-utils  
 ```
+...
+  sudo apt install aptitude
+  
+...
+   sudo aptitude install libsdl2-dev libsdl2-image-dev (if you get unmet dependencies error with these pakages)
+...
 
+...
+   git clone https://github.com/FullPenetrationTesting/Car_Hacking- 
+...
+
+...
+   cd Car-Hacking
+...
+
+...
+   make all
+...   
 Testing on a virtual CAN interface
 ----------------------------------
 You can run the following commands to setup a virtual can interface
